@@ -1,3 +1,5 @@
+# Zu Datei a_Netzwerke_Einfuehrung.ipynb
+
 from flask import Flask, request, jsonify
 
 app = Flask(__name__)
@@ -6,6 +8,11 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return "Server ist bereit und wartet auf Anfragen."
+
+# Route für mein Profil
+@app.route('/profil')
+def impressum():
+    return "<html><body><h1>Impressum</h1><p>Hier ist der Text zum Impressum.</p></body></html>"
 
 # Route zum Empfangen von Nachrichten
 @app.route('/message', methods=['POST'])
