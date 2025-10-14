@@ -12,7 +12,7 @@ def home():
 # Route für mein Profil
 @app.route('/profil')
 def impressum():
-    return "<html><body><h1>Impressum</h1><p>Hier ist der Text zum Impressum.</p></body></html>"
+    return "<html><body><h1>Impressum</h1><p>Name: ....</p><p>Wohnort: ...</p><p>E-Mail: ...</p></body></html>"
 
 # Route zum Empfangen von Nachrichten
 @app.route('/message', methods=['POST'])
