@@ -1,28 +1,30 @@
 import datetime as dt
+#from typing import ClassVar
 from pydantic import BaseModel, Field, field_validator, ValidationError
 
 class Spieler(BaseModel):
 
     # Eingabefelder mit Pydantic-Validierung
     name: str = Field(default="x", min_length=1)
-    jahrgang: int = Field(default=16.0)
-    #jahrgang: int = Field(default=16.0, ge=2009, le=1990)
+    #jahrgang: int = Field(default=16.0)
+    jahrgang: int = Field(default=16.0, ge=2009, le=1990)
     staerke: int = Field(default=0, gt=0, le=10)
     torschuss: int = Field(default=0, gt=0, le=10)
     motivation: int = Field(default=0, gt=0, le=10)
 
-    # alternativ: Individuelle Prüfung nur für 'jahrgang'
-    @field_validator("jahrgang")
-    def check_jahrgang(cls, jahrgang):
-        aktuelles_datum = dt.date.today()
-        aktuelles_jahr = aktuelles_datum.strftime("%Y")
-        alter = aktuelles_jahr - jahrgang
-        if (alter < 16) | (alter > 35):
-            raise ValueError("Das Alter muss zwischen 16 und 35 Jahren sein!")
-        cls.jahrgang_mit_zusicherung = jahrgang
 
+    # alternativ: Individuelle Prüfung nur für 'jahrgang'
+    # Funktioniert nicht wegen Klassenattribut --> Lösung siehe e_Objektübertragung / Klassenattribute in Pydantic
+    #@field_validator("jahrgang")
+    #def check_jahrgang(cls, jahrgang):
+    #    aktuelles_datum = dt.date.today()
+    #    aktuelles_jahr = aktuelles_datum.strftime("%Y")
+    #    alter = aktuelles_jahr - jahrgang
+    #    if (alter < 16) | (alter > 35):
+    #        raise ValueError("Das Alter muss zwischen 16 und 35 Jahren sein!")
+    #    cls.jahrgang_mit_zusicherung = jahrgang
     # Aktiviert Live-Validierung bei späteren Änderungen
-    model_config = {"validate_assignment": True}
+    #model_config = {"validate_assignment": True}
 
 
 
