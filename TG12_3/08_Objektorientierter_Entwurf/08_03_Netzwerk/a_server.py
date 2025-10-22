@@ -25,6 +25,19 @@ def handle_message():
     Anzeige() # Aufgabe
     return jsonify({"response": response_message})
 
+@app.route('/spieler', methods=['POST'])
+def handle_spieler():
+    spieler = request.json
+    # Spielerobjekt erzeugen
+    spieler = {
+        "name": spieler["name"],
+        "jahrgang": spieler["jahrgang"],
+        "staerke": spieler["staerke"],
+        "torschuss": spieler["torschuss"],
+        "motivation": spieler["motivation"]
+    }
+    return jsonify({"status": "Spieler empfangen", "spieler": spieler})
+
 # Aufgabe Start
 def Anzeige():
     print(f"Method: {request.method}")
