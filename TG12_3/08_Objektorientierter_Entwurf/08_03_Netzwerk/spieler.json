@@ -1,30 +1,65 @@
 [
     {
-        "name": "testfuenf",
-        "jahrgang": 2009,
-        "staerke": 1,
-        "torschuss": 4,
-        "motivation": 10
+        "name": "Theodor (Stürmer)",
+        "jahrgang": 2007,
+        "staerke": 6,
+        "torschuss": 3,
+        "motivation": 9
     },
     {
-        "name": "tom",
+        "name": "Eray (Abwehr)",
+        "jahrgang": 2006,
+        "staerke": 9,
+        "torschuss": 3,
+        "motivation": 6
+    },
+    {
+        "name": "Lukas (Stürmer)",
+        "jahrgang": 1999,
+        "staerke": 4,
+        "torschuss": 3,
+        "motivation": 4
+    },
+    {
+        "name": "Felix (Torwart)",
         "jahrgang": 2008,
-        "staerke": 1,
-        "torschuss": 1,
-        "motivation": 1
+        "staerke": 9,
+        "torschuss": 5,
+        "motivation": 4
     },
     {
-        "name": "hi",
+        "name": "Jannik (Abwehr)",
         "jahrgang": 1990,
-        "staerke": 10,
-        "torschuss": 1,
+        "staerke": 4,
+        "torschuss": 4,
         "motivation": 5
     },
     {
-        "name": "test6",
-        "jahrgang": 2009,
-        "staerke": 1,
-        "torschuss": 4,
+        "name": "Daniela (Mittelfeld)",
+        "jahrgang": 1900,
+        "staerke": 6,
+        "torschuss": 5,
+        "motivation": 3
+    },
+    {
+        "name": "Daniel (Mittelfeld)",
+        "jahrgang": 2007,
+        "staerke": 10,
+        "torschuss": 10,
         "motivation": 10
+    },
+    {
+        "name": "Sofia (Mittelfeld)",
+        "jahrgang": 2008,
+        "staerke": 10,
+        "torschuss": 10,
+        "motivation": 10
+    },
+    {
+        "name": "Sophia (Mittelfeld)",
+        "jahrgang": 2008,
+        "staerke": 5,
+        "torschuss": 3,
+        "motivation": 9
     }
 ]

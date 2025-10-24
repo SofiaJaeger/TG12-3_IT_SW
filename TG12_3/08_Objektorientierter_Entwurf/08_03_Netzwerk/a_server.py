@@ -45,9 +45,9 @@ def handle_spieler():
             json.dump([s.model_dump() for s in geladene_spieler], f, ensure_ascii=False, indent=4)
         print("✅ Spieler wurden in 'spieler.json' gespeichert.")
 
+
         with open("spieler.json", "r", encoding="utf-8") as f:
             print(f.read())
-
 
 
         return jsonify({
