@@ -1,8 +1,14 @@
 # Zu Datei a_Netzwerke_Einfuehrung.ipynb
 
 from flask import Flask, request, jsonify
+from pydantic import ValidationError
+import json
+from e_model import Spieler
+import os
 
 app = Flask(__name__)
+
+geladene_spieler = []  # Liste zum Speichern der Spieler
 
 # Route für die Hauptseite
 @app.route('/')
@@ -27,16 +33,48 @@ def handle_message():
 
 @app.route('/spieler', methods=['POST'])
 def handle_spieler():
-    spieler = request.json
-    # Spielerobjekt erzeugen
-    spieler = {
-        "name": spieler["name"],
-        "jahrgang": spieler["jahrgang"],
-        "staerke": spieler["staerke"],
-        "torschuss": spieler["torschuss"],
-        "motivation": spieler["motivation"]
-    }
-    return jsonify({"status": "Spieler empfangen", "spieler": spieler})
+    """Erstellt einen Spieler aus Json Dateien und prüft das mit Pydantic."""
+
+
+    try:
+        data = request.get_json()
+        spieler = Spieler(**data)
+        geladene_spieler.append(spieler)
+
+        with open("spieler.json", "w", encoding="utf-8") as f:
+            json.dump([s.model_dump() for s in geladene_spieler], f, ensure_ascii=False, indent=4)
+        print("✅ Spieler wurden in 'spieler.json' gespeichert.")
+
+        with open("spieler.json", "r", encoding="utf-8") as f:
+            print(f.read())
+
+
+
+        return jsonify({
+            "status": "ok",
+            "message": "Spieler erfolgreich erstellt",
+            "spieler": spieler.model_dump()
+        }), 201
+    except ValidationError as e:
+        return jsonify({
+            "status": "error",
+            "message": "Validierung fehlgeschlagen",
+            "details": e.errors()
+        }), 400
+
+dateiname = "spieler.json"
+
+if os.path.exists(dateiname):
+    with open(dateiname, "r", encoding="utf-8") as f:
+        daten = json.load(f)
+    geladene_spieler = [Spieler(**s) for s in daten]
+    print("📂 Geladene Spieler:")
+    for s in geladene_spieler:
+        print(s)
+else:
+    print(f"⚠️ Datei '{dateiname}' wurde nicht gefunden.")
+    print("Es wird eine leere Spielerliste erstellt.")
+    geladene_spieler = []
 
 # Aufgabe Start
 def Anzeige():

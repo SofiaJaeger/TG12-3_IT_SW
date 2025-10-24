@@ -1,0 +1,23 @@
+[
+    {
+        "name": "testfuenf",
+        "jahrgang": 2009,
+        "staerke": 1,
+        "torschuss": 4,
+        "motivation": 10
+    },
+    {
+        "name": "tom",
+        "jahrgang": 2008,
+        "staerke": 1,
+        "torschuss": 1,
+        "motivation": 1
+    },
+    {
+        "name": "hi",
+        "jahrgang": 1990,
+        "staerke": 10,
+        "torschuss": 1,
+        "motivation": 5
+    }
+]

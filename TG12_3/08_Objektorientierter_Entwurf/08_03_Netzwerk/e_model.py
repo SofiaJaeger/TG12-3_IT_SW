@@ -7,7 +7,7 @@ class Spieler(BaseModel):
     # Eingabefelder mit Pydantic-Validierung
     name: str = Field(default="x", min_length=1)
     #jahrgang: int = Field(default=16.0)
-    jahrgang: int = Field(default=16.0, ge=2009, le=1990)
+    jahrgang: int = Field(default=2000, ge=1900, le=2009)
     staerke: int = Field(default=0, gt=0, le=10)
     torschuss: int = Field(default=0, gt=0, le=10)
     motivation: int = Field(default=0, gt=0, le=10)
@@ -29,31 +29,31 @@ class Spieler(BaseModel):
 
 
 # Objekt erzeugen (gültige Werte)
-s = Spieler(name="Tom", jahrgang=2000, torschuss=5)
-print("1️⃣ Neuer Spieler:", s.model_dump())
+#s = Spieler(name="Tom", jahrgang=2000, torschuss=5)
+#print("1️⃣ Neuer Spieler:", s.model_dump())
 
 # Änderung eines gültigen Wertes
-s.torschuss = 6
-s.motivation = 5
-print("2️⃣ Nach Änderung:", s.model_dump())
+#s.torschuss = 6
+#s.motivation = 5
+#print("2️⃣ Nach Änderung:", s.model_dump())
 
 # Ungültiger Wert für Torschuss
-try:
-    s.torschuss = -50
-    print(s.model_dump())
-except ValueError as e:
-    print("Fehler:", e)
+#try:
+#    s.torschuss = -50
+#    print(s.model_dump())
+#except ValueError as e:
+#    print("Fehler:", e)
 
 # Ungültiger Wert für Name
-try:
-    s.name = ""
-    print(s.model_dump())
-except ValueError as e:
-    print("Fehler:", e)
+#try:
+#    s.name = ""
+#    print(s.model_dump())
+#except ValueError as e:
+#    print("Fehler:", e)
 
 # Fehler schon beim Erstellen (beide Werte falsch)
-try:
-    s = Spieler(name="", jahrgang=-2000, torschuss=15)
-except ValidationError as e:
-    print("Fehler beim Erstellen des Objekts:")
-    print(e)
+#try:
+#    s = Spieler(name="", jahrgang=-2000, torschuss=15)
+#except ValidationError as e:
+#    print("Fehler beim Erstellen des Objekts:")
+#    print(e)
