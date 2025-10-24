@@ -19,5 +19,12 @@
         "staerke": 10,
         "torschuss": 1,
         "motivation": 5
+    },
+    {
+        "name": "test6",
+        "jahrgang": 2009,
+        "staerke": 1,
+        "torschuss": 4,
+        "motivation": 10
     }
 ]
