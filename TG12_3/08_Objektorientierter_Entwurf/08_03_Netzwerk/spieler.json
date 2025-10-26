@@ -49,17 +49,18 @@
         "motivation": 10
     },
     {
-        "name": "Sofia (Mittelfeld)",
-        "jahrgang": 2008,
-        "staerke": 10,
-        "torschuss": 10,
-        "motivation": 10
-    },
-    {
         "name": "Sophia (Mittelfeld)",
         "jahrgang": 2008,
         "staerke": 5,
         "torschuss": 3,
         "motivation": 9
+    },
+    {
+        "name": "Sofia (Mittelfeld)",
+        "jahrgang": 2008,
+        "staerke": 10,
+        "torschuss": 10,
+        "motivation": 10
     }
+
 ]
