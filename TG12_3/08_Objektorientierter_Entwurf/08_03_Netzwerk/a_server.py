@@ -1,14 +1,25 @@
-# Zu Datei a_Netzwerke_Einfuehrung.ipynb
-
-from flask import Flask, request, jsonify
+# Zu Datei a_Netzwerke_Einfuehrung.ip
+from flask import Flask, request, jsonify, send_from_directory
 from pydantic import ValidationError
 import json
 from e_model import Spieler
 import os
+from flask_cors import CORS
+
 
 app = Flask(__name__)
+CORS(app)  # Alternative: erlaubt alle Origins
+
+#CORS(app, origins=[
+#    "http://127.0.0.1:5500",
+#    "http://localhost:5500"
+#])
 
 geladene_spieler = []  # Liste zum Speichern der Spieler
+
+@app.route('/formular')
+def formular():
+    return send_from_directory('../08_04_Webanwendung', 'a_webseite.html')
 
 # Route für die Hauptseite
 @app.route('/')
@@ -89,6 +100,7 @@ def Anzeige():
     print(f"Url: {request.url}")
     print(f"Remote_addr: {request.remote_addr}")
 # Aufgabe Ende
+
 
 
 if __name__ == '__main__':

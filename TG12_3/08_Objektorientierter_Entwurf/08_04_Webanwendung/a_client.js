@@ -13,7 +13,7 @@ document.getElementById("spielerForm").addEventListener("submit", async function
     };
 
     // Daten an den Server senden
-    const response = await fetch("https", {
+    const response = await fetch("https://stunning-space-palm-tree-q7pv54x579v7c6544-12345.app.github.dev/spieler", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
