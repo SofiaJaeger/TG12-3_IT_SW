@@ -13,7 +13,7 @@ document.getElementById("spielerForm").addEventListener("submit", async function
     };
 
     // Daten an den Server senden
-    const response = await fetch("", {
+    const response = await fetch("https", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
