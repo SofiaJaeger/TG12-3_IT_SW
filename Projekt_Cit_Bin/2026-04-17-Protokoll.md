@@ -17,14 +17,17 @@
 ---
 ## Aktueller Stand/ Rückblick seit der letzten Sitzung:
 ### 1. Betrieb:
-- 
+- Zwei Sensoren im Gateway registriert
+- Beschreibung geschrieben, wie man einen neuen Sensor registriert
+- Aktuell setzen sie sich mit NGINX auseinander
+
 ### 2. Hardware:
 - Marlon modelliert eine CAD-Schiene als Halterung für den Sensor.
 - Lukas erstellt eine Benutzeranleitung für den Sensor.
 - Eray berechnet den Bereich der im Mülleimer durch den Sensor eingesehen werden kann.
 
 ### 3. Software:
-- Sie lesen sich in die neue MQT-Technologie ein
+- Sie lesen sich in die neue MQTT-Technologie ein
 
 ### 4. Projektleitung:
 - E-Mail zur neuen Terminvereinbarung gesendet
@@ -48,9 +51,11 @@
 ---
 ## Ziele bis zur nächsten Sitzung:
 ### 1. Betrieb:
-- 
+- NGINX auf dem Server installieren
+
 ### 2. Hardware:
-- Drei D gedrucktes Modell fertig gedruckt haben
+- 3D gedrucktes Modell fertig gedruckt haben
+- Benutzeranleitung fertig schreiben
 
 ### 3. Software:
 - Sie wollen den MQTT-Simulator umprogrammieren.
@@ -58,6 +63,3 @@
 ### 4. Projektleitung:
 - Protokoll fertig schreiben und hochladen
 - Entscheiden, welche der beiden Terminvorschläge wahrgenommen werden sollen
-
-### 5. Allgemein:
-- 
