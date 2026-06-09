@@ -1,5 +1,10 @@
 # Kozept Abschlussveranstaltung
 
+## Termin
+Donnerstag, 16. Juli 2026
+10:00-13:00 Uhr
+(Bürgermeister kann nur 12:00-13:00 Uhr)
+
 ## Gästeliste
 
 1. Intern:
@@ -44,3 +49,7 @@
 - Pinnnadeln, Klebeband
 - Buffet und zusätzliche Tische dafür -> Frau Bieler
 - Essen und Getränke für Buffet -> Frau Bieler
+
+## Nächste Schritte:
+- Uhrzeit diskutieren
+- Endgültige Einladung verschicken
