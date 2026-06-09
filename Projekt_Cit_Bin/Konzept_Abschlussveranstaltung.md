@@ -12,6 +12,9 @@ Donnerstag, 16. Juli 2026
 - Herr Mümo (oliver.mueller-molenar@hgs-singen.de)
 - Herr Laber (karl.laber@hgs-singen.de)
 - Herr Martin (stefan.martin@hgs-singen.de)
+- Herr Gantner (GMT) (ga@hgs-singen.online)
+- Herr Zschoernig (GMT) (zs@hgs-singen.online)
+- Herr Gripentrog (IT nächstes Jahr) (gp@hgs-singen.online)
 - Klasse TG 12/3 (so.jaeger@hgs-singen.online; d.saracoglu@hgs-singen.online)
 - Samuel Brandao-Santana (TG13/3) (s.brandao@hgs-singen.online)
 - Nicolas Wagner (TG13/3) (n.wagner@hgs-singen.online)
@@ -31,10 +34,11 @@ Donnerstag, 16. Juli 2026
 
 ## Ablauf:
 - Ansprache Herr Fehrenbach
-- Ansprache Bürgermeister
 
 - Präsentation vom Produkt (allgemein, Fortschritt, Ergebnis, Simulierung Mülleimer)
 - Podiumsdiskussion Ausblick für die Zukunft (Frau Bieler, Schule, ifm, Sybit) (im Vorraus absprechen was gesagt wird)
+
+- Ansprache Bürgermeister
 
 - Stände anschauen etc.
 - Wenn möglich offenes Ende mit Buffet?
@@ -47,9 +51,10 @@ Donnerstag, 16. Juli 2026
 - Inhalt der Stände, auch Mülleimer und Sensoren, Benutzerhandbuch, Plakate, Flyer (Herr Gantner) etc. zum Vorzeigen
 - Pinnwände oder Wand zum Befestigen der Plakate, Bilder etc.
 - Pinnnadeln, Klebeband
-- Buffet und zusätzliche Tische dafür -> Frau Bieler
-- Essen und Getränke für Buffet -> Frau Bieler
+Eventuell:
+- Buffet und zusätzliche Tische dafür
+- Essen und Getränke für Buffet
 
 ## Nächste Schritte:
-- Uhrzeit diskutieren
+- Uhrzeit diskutieren (Kann der Bürgermeister später? Ist es besser, wenn er am Ende oder am Anfang kommt?)
 - Endgültige Einladung verschicken

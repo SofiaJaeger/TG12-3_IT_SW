@@ -6,7 +6,7 @@
 Texte abgeben
 - am besten Ende dieser Woche (12. Juni)
 - spätestens Mitte nächster Woche (17. Juni)
-- Informationen und Texte an Herr Ztschörnig (zs) auf Teams schicken
+- Informationen und Texte an Herr Zschoernig (zs) auf Teams schicken
 
 --
 
@@ -46,10 +46,19 @@ Gruppen:
 
 2. Hardware:
 - Konstruktion der Befestigung für den Sensor
-- Sensor
+
+- Montage der Sensoren in Mülleimern
+- Testen der Sensorfunktion
+- Unterstützung bei der Installation von Antennen und Basisstationen
 
 3. Software:
--
+- Verarbeitung der Sensordaten
+- Darstellung der Daten in der Benutzeroberfläche
+- Verbindung der App mit dem Sensordaten-Server
 
 4. Betrieb und Infrastruktur:
-- 
+- Installation der Basisstationen
+- Aufsetzen eines Servers mit Docker
+
+- Aktivieren und Konfigurieren der Sensoren
+- Integration der Sensoren in Server und App
