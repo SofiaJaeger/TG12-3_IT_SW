@@ -41,7 +41,7 @@ Frau Bieler gibt Informationen an Bürgermeister, Ihrer Vertretung (evtl. auch F
 1. Ansprache von Herr Fehrenbach
 2. Eventuell Videobotschaft/ Live-Zuschaltung von Frau Bieler
 3. Präsentation vom Produkt durch die einzelnen Gruppen der Klasse (allgemein, Fortschritt, Ergebnis, Simulierung Mülleimer und Empfang der Daten)
-4. Podiumsdiskussion Thema: Ausblick für die Zukunft (Jweils ein Vertreter für Stadt, Schule, ifm, Sybit) (im Vorraus absprechen was gesagt wird)
+4. Podiumsdiskussion Thema: Ausblick für die Zukunft (Jeweils ein Vertreter für Stadt, Schule, ifm, Sybit) (im Voraus absprechen was gesagt wird)
 5. Begrüßung an den Bürgermeister Bernd Häusler, Ihm nochmal kurz eine Einführung in das Thema geben/ aktuellen Stand erzählen
 6. Ansprache vom Bürgermeister Bernd Häusler (wenn er das möchte)
 7. Stände anschauen, freie Gespräche etc.
