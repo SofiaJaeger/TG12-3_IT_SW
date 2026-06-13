@@ -8,7 +8,8 @@ Donnerstag, 16. Juli 2026
 
 ## Gästeliste
 
-(Eingeklammerte Gäste sind noch nicht klar, ob Sie kommen)
+Das sind alle eingeladenen Gäste. Wer endgültig alles kommt, klären wir noch ab, und leiten es Frau Bieler weiter.
+Frau Bieler gibt Informationen an Bürgermeister, Ihrer Vertretung (evtl. auch Frau Weißmann), technische Dienste, Presse weiter.
 
 1. Intern:
 - Herr Fehrenbach (stefan.fehrenbach@hgs-singen.de
@@ -18,7 +19,7 @@ Donnerstag, 16. Juli 2026
 - Herr Gantner (GMT) (ga@hgs-singen.online)
 - Herr Zschoernig (GMT) (zs@hgs-singen.online)
 - Herr Gripentrog (IT nächstes Jahr) (gp@hgs-singen.online)
-- Herr Benz? (IT nächstes Jahr)
+- Herr Benz (IT nächstes Jahr) (bz@hgs-singen.online) ?
 - Klasse TG 12/3 (so.jaeger@hgs-singen.online; d.saracoglu@hgs-singen.online)
 - Samuel Brandao-Santana (TG13/3) (s.brandao@hgs-singen.online)
 - Nicolas Wagner (TG13/3) (n.wagner@hgs-singen.online)
