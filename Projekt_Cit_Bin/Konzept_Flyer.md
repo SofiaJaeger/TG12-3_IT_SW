@@ -13,7 +13,7 @@ Texte abgeben
 ## Algemein
 - ca. 70% Bilder, 30% Text
 - Bilder sollen groß sein
-- Bilder/ Logos sollen in Vektor sein bzw. Herr Ztschörnig schicken, und er wandelt es um
+- Bilder/ Logos sollen in Vektor sein bzw. Herr Zschoernig schicken, und er wandelt es um
 - Anzahl Wörter der Texte zu den Bilder angeben, damit sie wissen, wie viel Platz sie brauchen
 
 --
